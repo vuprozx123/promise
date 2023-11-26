@@ -3,7 +3,7 @@
 const users = [
     {
         id: 1,
-        name: 'Nguyen tu quyen',
+        name: 'Nguyen Quynh Trang',
     },
     {
         id: 2,
