@@ -1,0 +1,33 @@
+.header{
+    font-size: 30px;
+    color: #333;
+    background-color: burlywood;
+    padding: 10px;
+    border: 4px dashed red;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.boder{
+    border: 4px dashed blueviolet;
+    padding: 20px;
+    background: url(./ảnh\ đức\ ngu.jpg);
+    background-repeat: space;
+    text-align: center;
+    font-size: 100px;
+}
+
+.hidden{
+    font-size: 30px;
+}
+
+.third{
+    border: 4px dashed blue;
+    padding: 20px;
+    background-image: linear-gradient(0,rgba(255,255,0,0.5),#ccc);
+    background-image: url(./kho-kho.jpg);
+    background-size: contain;
+    height: 140px;
+
+}
+

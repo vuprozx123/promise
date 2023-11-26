@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+}
+
+@keyframes growth {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* cách giả lập để biết ấn vào đăng ký nó hiện ra animation như nào là: inspect xong ấn vào div to nhất là modal rồi thêm display: none sau đó ấn tích r lại bỏ là bt*/
+/* xong ta comment lại đoạn code modal đó tại ấn vào hiện ra là sau dùng js chưa học*/
+ /*trong modal.body*/ /*thg nay dang nam duoi , bi overlay de len vi thg no position nen uu tien nam tren cx   */
+/* để màu đỏ se nhin ro*/
+/*con muon cho body len tren overlay se dung thuoc tinh z-index*/ 
+@keyframes inden {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    animation: inden linear 0.1s;    
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.modal__body {       
+    background-color: #fff;
+    margin: auto;
+    width: 590px;
+    height: 530px;  
+    z-index: 1; 
+    border-radius: 5px;
+}
+
+/* lam phan body */
+
+/* reponsive ve sau  */
+/* day la lam phan nguyen tac colum chia thanh 12 cot,  khoang cach deu nhau ( xem lai o vid 67) */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid-colum-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;  /*kich thuoc cua 2 cot ( muon bt lay 100% / 12 = 8,3333)*/
+    box-sizing: border-box;
+}
+
+.grid-colum-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;  /*kich thuoc cua 10 cot ( muon bt lay 8/12 nhan 100)*/
+    box-sizing: border-box;
+}
+
+.grid-colum-2-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 20%;   /* 100% / 5 */
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

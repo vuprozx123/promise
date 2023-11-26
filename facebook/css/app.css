@@ -1,0 +1,100 @@
+body {
+    background-color: #F0F2F5;
+}
+
+.container {
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+}
+.logo {
+    /* width: 320px; */
+    height: 106px;
+}
+
+.description-fb {
+    font-size: 24px;
+    line-height: 28px;
+    color: #1c1e21;
+    font-weight: 500;
+}
+
+.login-form {
+    background-color: #fff;
+    width: 396px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.login-form input {
+    width: 92%;
+    height: 40px; 
+    font-size: 17px;
+    padding: 5px 15px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    
+}
+
+.login-form input:focus {
+    border-color: #1b74e4; 
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.submit-btn {
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.forgotton-password-container {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.forgotton-password {
+    color: #1877f2;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+.forgotton-password:hover {
+    /* text-decoration: underline; */
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #dadde1;
+}
+
+.create-account-btn {
+    text-align: center;
+}
+
+.create-account-btn button {
+    background-color: #4eb72a;
+    width: 194px;
+    height: 48px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+
+
